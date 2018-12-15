@@ -4,6 +4,8 @@
 # Pablo
 #
 
+# Funciones
+
 # Función para comprobar la letra
 def comprobar_letra (dni):
     
@@ -25,6 +27,7 @@ def validar_dni (dni):
     # Variables
     numeros = "0123456789"
     
+    # Validación
     for i in range (0,7):
         if not (dni[i] in numeros):
             return False
@@ -33,6 +36,8 @@ def validar_dni (dni):
             return False
     
     return True
+
+# Principal
 
 # Pedir el DNI
 dni = input("Introduce un DNI para validar: ")
