@@ -1,9 +1,10 @@
+#
 # Ejercicio 19 de Alternativas
 #
 # Escribe un programa que pida 10 numeros por teclado y que luego muestre los numeros introducidos junto con las palabras maximo
 # y minimo al lado del maximo y del minimo respectivamente.
 #
-# pablo
+# Pablo
 
 # Pedir valores
 mes = int(input("Introduce el numero del mes: "))

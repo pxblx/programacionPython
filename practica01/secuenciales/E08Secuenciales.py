@@ -1,6 +1,7 @@
+#
 # Ejercicio 8 de Secuenciales
 #
-# pablo
+# Pablo
 
 # Pedir valores
 salario = int(input("Introduce el salario base: "))

@@ -1,6 +1,7 @@
+#
 # Ejercicio 12 de Secuenciales
 #
-# pablo
+# Pablo
 
 import math
 

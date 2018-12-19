@@ -1,6 +1,7 @@
+#
 # Ejercicio 4 de Secuenciales
 #
-# pablo
+# Pablo
 
 # Pedir valores
 numero1 = int(input("Numero 1: "))

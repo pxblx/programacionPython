@@ -1,8 +1,9 @@
+#
 # Ejercicio 9 de Repetitivas
 #
 # Mostrar en pantalla los N primeros numero primos. Se pide por teclado la cantidad de numeros primos que queremos mostrar.
 #
-# pablo
+# Pablo
 
 import math
 

@@ -1,6 +1,7 @@
+#
 # Ejercicio 17 de Secuenciales
 #
-# pablo
+# Pablo
 
 # Pedir valores
 horaSalida = int(input("Hora de salida: "))

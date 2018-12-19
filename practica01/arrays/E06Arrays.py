@@ -1,10 +1,11 @@
+#
 # Ejercicio 6 de Arrays
 #
 # Escribe un programa que lea 15 numeros por teclado y que los almacene en un array. Rota los elementos de ese array, es decir, el
 # elemento de la posicion 0 debe pasar a la posicion 1, el de la 1 a la 2, etc. El numero que se encuentra en la ultima posicion debe
 # pasar a la posicion 0. Finalmente, muestra el contenido del array.
 #
-# pablo
+# Pablo
 
 # Pedir valores
 numeros = []

@@ -1,8 +1,9 @@
+#
 # Ejercicio 6 de Arrays bidimensionales
 #
 # Modifica el programa anterior de tal forma que no se repita ningún número en el array.
 #
-# pablo
+# Pablo
 
 import random
 

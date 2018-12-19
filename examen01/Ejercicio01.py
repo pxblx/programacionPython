@@ -1,7 +1,8 @@
+#
 # Ejercicio 1
 # Haz un programa en Java y Python que calcule el combinatorio de dos numeros. Si hay un error en la introduccion debe indicarlos.
 #
-# Pablo Murillo Ávila
+# Pablo
 
 # Pedir los valores de N y M
 n = int(input("Introduce N: "))

@@ -1,7 +1,8 @@
+#
 # Ejercicio 2
 # Haz un programa en Java y Python que calcule el elemento N (se pide al usuario) de la serie de Fibonacci.
 #
-# Pablo Murillo Ávila
+# Pablo
 
 # Pedir el valor de N
 n = int(input("Numero de elemento de la serie Fibonacci: "))

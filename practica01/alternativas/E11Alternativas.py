@@ -1,3 +1,4 @@
+#
 # Ejercicio 11 de Alternativas
 #
 # Programa que lea 3 datos de entrada A, B y C. Estos corresponden a las dimensiones de los lados de un triangulo.
@@ -7,7 +8,7 @@
 # - Si los 3 lados son iguales entonces es equilatero.
 # - Si no se cumple ninguna de las condiciones anteriores, es escaleno.
 #
-# pablo
+# Pablo
 
 # Pedir valores
 a = int(input("Introduce el valor para A: "))

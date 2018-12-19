@@ -1,8 +1,9 @@
+#
 # Ejercicio 15 de Repetitivas
 #
 # Introducir una cadena de caracteres e indicar si es un palindromo. Una palabra palindroma es aquella que se lee igual adelante que atras.
 #
-# pablo
+# Pablo
 
 # Pedir valores
 cadena = input("Introduce una cadena: ")

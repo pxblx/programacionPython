@@ -1,3 +1,4 @@
+#
 # Ejercicio 5 de Repetitivas
 #
 # Escribe un programa que pida el limite inferior y superior de un intervalo. Si el limite inferior es mayor que el superior lo tiene
@@ -7,7 +8,7 @@
 # - Cuantos numeros estan fuera del intervalo.
 # - Informa si hemos introducido algun numero igual a los limites del intervalo.
 #
-# pablo
+# Pablo
 
 # Pedir valores
 while True:

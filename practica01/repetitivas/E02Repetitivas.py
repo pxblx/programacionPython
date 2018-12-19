@@ -1,9 +1,10 @@
+#
 # Ejercicio 2 de Repetitivas
 #
 # Realizar un algoritmo que pida numeros (se pedira por teclado la cantidad de numeros a introducir). El programa debe informar de cuantos
 # numeros introducidos son mayores que 0, menores que 0 e iguales a 0.
 #
-# pablo
+# Pablo
 
 # Pedir valores
 cantidad = int(input("Introduce la cantidad de numeros que vas a guardar: "))
