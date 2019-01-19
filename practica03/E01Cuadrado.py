@@ -11,42 +11,42 @@
 # Clase Cuadrado
 #
 class Cuadrado():
-    
+
     def __init__(self, lado):
         
-        self.lado = lado
+        self.__lado = lado
     
     def __str__(self):
         
         resultado = ""
         
         c = 0
-        while c < self.lado:
+        while c < self.__lado:
             
-            resultado += "��"
+            resultado += "##"
             c += 1
         
         resultado += "\n"
         
         c = 1
-        while c < self.lado-1:
+        while c < self.__lado-1:
             
-            resultado += "��"
+            resultado += "##"
             
             espacios = 1
-            while espacios < self.lado-1:
+            while espacios < self.__lado-1:
                 
                 resultado += "  "
                 espacios += 1
             
-            resultado += "��\n"
+            resultado += "##\n"
             
             c +=1
         
         c = 0
-        while c < self.lado:
+        while c < self.__lado:
             
-            resultado += "��"
+            resultado += "##"
             c += 1
         
         resultado += "\n"
@@ -56,5 +56,6 @@ class Cuadrado():
 #
 # Programa principal
 #
-miCuadradito = Cuadrado(5)
-print(miCuadradito)
+if __name__ == "__main__":
+    miCuadradito = Cuadrado(5)
+    print(miCuadradito)

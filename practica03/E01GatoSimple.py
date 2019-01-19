@@ -48,26 +48,28 @@ class GatoSimple():
 #
 # Programa principal
 #
-garfield = GatoSimple("macho")
+if __name__ == "__main__":
 
-print("hola gatito")
-garfield.maulla()
-print("toma tarta")
-garfield.come("tarta selva negra")
-print("toma pescado, a ver si esto te gusta")
-garfield.come("pescado")
+    garfield = GatoSimple("macho")
 
-tom = GatoSimple("macho")
+    print("hola gatito")
+    garfield.maulla()
+    print("toma tarta")
+    garfield.come("tarta selva negra")
+    print("toma pescado, a ver si esto te gusta")
+    garfield.come("pescado")
 
-print("Tom, toma sopita de verduras")
-tom.come("sopa de verduras")
+    tom = GatoSimple("macho")
 
-lisa = GatoSimple("hembra")
+    print("Tom, toma sopita de verduras")
+    tom.come("sopa de verduras")
 
-print("gatitos, a ver cómo maulláis")
-garfield.maulla()
-tom.maulla()
-lisa.maulla()
-garfield.peleaCon(lisa)
-lisa.peleaCon(tom)
-tom.peleaCon(garfield)
+    lisa = GatoSimple("hembra")
+
+    print("gatitos, a ver cómo maulláis")
+    garfield.maulla()
+    tom.maulla()
+    lisa.maulla()
+    garfield.peleaCon(lisa)
+    lisa.peleaCon(tom)
+    tom.peleaCon(garfield)
