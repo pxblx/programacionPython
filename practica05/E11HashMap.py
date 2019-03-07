@@ -10,6 +10,7 @@ __author__ = Pablo
 """
 import random
 
+
 diccionario = {
     "hola": "hello",
     "adiós": "goodbye",
