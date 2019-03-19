@@ -1,9 +1,9 @@
 """
 Ejercicio 2 de POO
 """
-from practica04.E02.Vehiculo import Vehiculo
-from practica04.E02.Bicicleta import Bicicleta
-from practica04.E02.Coche import Coche
+from src.practica04.E02.Vehiculo import Vehiculo
+from src.practica04.E02.Bicicleta import Bicicleta
+from src.practica04.E02.Coche import Coche
 
 """
 Programa de prueba

@@ -6,7 +6,7 @@
 # Pablo
 #
 
-from practica02.funciones.Matematicas import es_primo
+from src.practica02.funciones.Matematicas import es_primo
 
 print("| ", end = "")
 for i in range (1, 1001):

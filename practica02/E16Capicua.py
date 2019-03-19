@@ -6,7 +6,7 @@
 # Pablo
 #
 
-from practica02.funciones.Matematicas import es_capicua
+from src.practica02.funciones.Matematicas import es_capicua
 
 print("| ", end = "")
 for i in range (1, 100000):

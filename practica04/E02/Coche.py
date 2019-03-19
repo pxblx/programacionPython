@@ -1,7 +1,7 @@
 """
 Ejercicio 2 de POO
 """
-from practica04.E02.Vehiculo import Vehiculo;
+from src.practica04.E02.Vehiculo import Vehiculo;
 
 """
 Subclase Coche

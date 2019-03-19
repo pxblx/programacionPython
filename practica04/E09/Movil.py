@@ -1,4 +1,4 @@
-from practica04.E08.Terminal import Terminal
+from src.practica04.E08.Terminal import Terminal
 
 
 class Movil(Terminal):

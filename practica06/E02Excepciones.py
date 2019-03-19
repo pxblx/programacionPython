@@ -10,7 +10,7 @@ programa desde el que se pruebe el método.
 
 __author__ == Pablo
 """
-from practica03.E01GatoSimple import GatoSimple
+from src.practica03.E01GatoSimple import GatoSimple
 from random import randint
 
 

@@ -6,7 +6,7 @@
 # Pablo
 #
 
-from practica02.funciones.Matematicas import pega_por_detras, voltea
+from src.practica02.funciones.Matematicas import pega_por_detras, voltea
 
 numero = int(input("Introduce un número decimal: "))
 

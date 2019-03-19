@@ -1,7 +1,7 @@
 """
 Ejercicio 6 de POO
 """
-from practica04.E06.Tiempo import Tiempo
+from src.practica04.E06.Tiempo import Tiempo
 
 """
 Programa de prueba
