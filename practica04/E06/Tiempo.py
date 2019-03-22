@@ -50,8 +50,7 @@ class Tiempo:
         minutos = self.minutos+t.minutos
         horas = self.horas+t.horas
 
-        resultado = Tiempo(horas, minutos, segundos)
-        return resultado
+        return Tiempo(horas, minutos, segundos)
 
     """
     Restar dos tiempos
@@ -71,5 +70,4 @@ class Tiempo:
             minutos = minutos + 60
             horas = horas - 1
 
-        resultado = Tiempo(horas, minutos, segundos)
-        return resultado
+        return Tiempo(horas, minutos, segundos)

@@ -12,9 +12,9 @@ tiempo1 = datetime.strptime("06:30:10", formato)
 tiempo2 = datetime.strptime("13:23:55", formato)
 tiempo3 = datetime.strptime("14:32:11", formato)
 
-print("Tiempo 1: "+str(datetime.strftime(tiempo1, formato)))
-print("Tiempo 2: "+str(datetime.strftime(tiempo2, formato)))
-print("Tiempo 3: "+str(datetime.strftime(tiempo3, formato)))
+print("Tiempo 1: "+datetime.strftime(tiempo1, formato))
+print("Tiempo 2: "+datetime.strftime(tiempo2, formato))
+print("Tiempo 3: "+datetime.strftime(tiempo3, formato))
 print()
 
 print("Suma de 1 + 2: "+datetime.strftime((tiempo1 + timedelta(seconds=tiempo2.second, hours=tiempo2.hour, minutes=tiempo2.minute)), formato))
