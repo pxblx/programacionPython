@@ -8,30 +8,26 @@ del fichero resultado debe ser el mismo que el original añadiendo la coletilla
 sort, por ejemplo palabras_sort.txt. Suponemos que cada palabra ocupa una
 línea.
 """
+
 import sys
 import os
 
 if len(sys.argv) != 2:
     print("Se debe especificar como argumento el nombre del archivo.")
     exit(-1)
-archivo = sys.argv[1]
-archivo_nuevo = os.path.splitext(archivo)[0]+"_sort.txt"
-palabras = []
-
+NOMBRE_ARCHIVO = sys.argv[1]
+NOMBRE_ARCHIVO_NUEVO = os.path.splitext(NOMBRE_ARCHIVO)[0] + "_sort.txt"
 try:
-    with open(archivo, "r") as f:
-        linea = f.readline()
-        while linea:
+    palabras = []
+    with open(NOMBRE_ARCHIVO, "r") as a:
+        for linea in a:
             palabras.append(linea)
-            linea = f.readline()
     palabras.sort()
-
-    f = open(archivo_nuevo, "w")
-    for palabra in palabras:
-        f.write(palabra)
-    f.close()
+    with open(NOMBRE_ARCHIVO_NUEVO, "w") as a:
+        for palabra in palabras:
+            a.write(palabra)
+    print("Archivo '" + NOMBRE_ARCHIVO_NUEVO + "' creado.")
 except FileNotFoundError:
-    print("No se ha encontrado el archivo '" + archivo + "'.")
+    print("No se ha encontrado el archivo '" + NOMBRE_ARCHIVO + "'.")
 except IOError:
-    print("No se ha podido escribir en el archivo '" + archivo_nuevo + "'.")
-print("Archivo '" + archivo_nuevo + "' creado.")
+    print("No se ha podido escribir en el archivo '" + NOMBRE_ARCHIVO_NUEVO + "'.")
