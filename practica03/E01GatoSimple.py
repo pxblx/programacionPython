@@ -1,57 +1,44 @@
-#
-# Ejercicio 1 de clases
-#
-# Implementa en Python las clases GatoSimple, Cubo y Cuadrado vistas en el libro "Aprende Java con Ejercicios" y sus respectivos programas
-# de prueba.
-#
-# Pablo
-#
+"""
+Ejercicio 1 de clases
 
-#
-# Clase GatoSimple
-#
-class GatoSimple():
-    
+Implementa en Python las clases GatoSimple, Cubo y Cuadrado vistas en el libro "Aprende Java con Ejercicios" y sus
+respectivos programas de prueba (Estilo Java).
+"""
+
+class GatoSimple:
     def __init__(self, sexo):
-        
-        self.sexo = sexo
+        self.__sexo = sexo
     
-    def getSexo(self):
-        
-        return self.sexo
-    
-    def maulla(self):
-        
+    def get_sexo(self):
+        return self.__sexo
+
+    @staticmethod
+    def maulla():
         print("Miauuuu")
-    
-    def ronronea(self):
-        
+
+    @staticmethod
+    def ronronea():
         print("mrrrrrr")
     
-    def come(self, comida):
-        
+    @staticmethod
+    def come(comida):
         if comida == "pescado":
             print("Hmmmm, gracias")
         else:
             print("Lo siento, yo solo como pescado")
     
-    def peleaCon(self, contrincante):
-        
-        if self.getSexo() == "hembra":
+    def pelea_con(self, contrincante):
+        if self.get_sexo() == "hembra":
             print("no me gusta pelear")
         else:
-            if contrincante.getSexo() == "hembra":
+            if contrincante.get_sexo() == "hembra":
                 print("no peleo contra gatitas")
             else:
                 print("ven aquí que te vas a enterar")
 
-#
-# Programa principal
-#
+# Principal
 if __name__ == "__main__":
-
     garfield = GatoSimple("macho")
-
     print("hola gatito")
     garfield.maulla()
     print("toma tarta")
@@ -60,16 +47,14 @@ if __name__ == "__main__":
     garfield.come("pescado")
 
     tom = GatoSimple("macho")
-
     print("Tom, toma sopita de verduras")
     tom.come("sopa de verduras")
 
     lisa = GatoSimple("hembra")
-
     print("gatitos, a ver cómo maulláis")
     garfield.maulla()
     tom.maulla()
     lisa.maulla()
-    garfield.peleaCon(lisa)
-    lisa.peleaCon(tom)
-    tom.peleaCon(garfield)
+    garfield.pelea_con(lisa)
+    lisa.pelea_con(tom)
+    tom.pelea_con(garfield)

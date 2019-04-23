@@ -19,25 +19,16 @@ VEHÍCULOS
 Elige una opción (1-8):
 """
 
-"""
-Clase Vehiculo
-"""
 class Vehiculo(object):
     vehiculos_creados = 0
     kilometros_totales = 0
 
-    """
-    Constructor
-    """
     def __init__(self, kilometros_recorridos):
         self.en_marcha = False
         self.kilometros_recorridos = kilometros_recorridos
         Vehiculo.vehiculos_creados = Vehiculo.vehiculos_creados + 1
         Vehiculo.kilometros_totales = Vehiculo.kilometros_totales + kilometros_recorridos
 
-    """
-    Arrancar el vehículo
-    """
     def arrancar(self):
         if self.en_marcha:
             self.en_marcha = False

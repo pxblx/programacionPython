@@ -1,7 +1,6 @@
-#
-# Ejercicio 12 de Secuenciales
-#
-# Pablo
+"""
+Ejercicio 12 de secuenciales
+"""
 
 import math
 
@@ -12,6 +11,5 @@ x2 = int(input("Introduce el valor para x2: "))
 y2 = int(input("Introduce el valor para y2: "))
 
 # Resultado
-distancia=math.sqrt(math.pow((x2-x1),2)+math.pow(y2-y1,2))
-
-print("La distancia entre los puntos es "+str(distancia)+".")
+distancia = math.sqrt(math.pow((x2 - x1), 2) + math.pow(y2 - y1, 2))
+print("La distancia entre los puntos es " + str(distancia) + ".")

@@ -1,8 +1,9 @@
-from src.examen03.Ejercicio03.src.Rectangulo import Rectangulo
+"""
+Ejercicio 3 (Cuadrado)
+"""
 
-"""
-Cuadrado (Ejercicio 3)
-"""
+from src.examen03.ejercicio03.src.Rectangulo import Rectangulo
+
 class Cuadrado(Rectangulo):
     def __init__(self, lado):
         super().__init__(lado, lado)

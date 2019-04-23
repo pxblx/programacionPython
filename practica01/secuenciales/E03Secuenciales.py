@@ -1,7 +1,6 @@
-#
-# Ejercicio 3 de Secuenciales
-#
-# Pablo
+"""
+Ejercicio 3 de secuenciales
+"""
 
 import math
 
@@ -10,6 +9,5 @@ cateto1 = int(input("Cateto 1: "))
 cateto2 = int(input("Cateto 2: "))
 
 # Resultado
-hipotenusa = math.sqrt(math.pow(cateto1,2)+math.pow(cateto2,2))
-
-print("La hipotenusa es "+str(hipotenusa)+" cm.")
+hipotenusa = math.sqrt(math.pow(cateto1, 2) + math.pow(cateto2, 2))
+print("La hipotenusa es " + str(hipotenusa) + " cm.")

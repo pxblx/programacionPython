@@ -1,10 +1,11 @@
-from src.examen03.Ejercicio03.src.Cuadrado import Cuadrado
-from src.examen03.Ejercicio03.src.Rectangulo import Rectangulo
+"""
+Ejercicio 3 (programa de prueba para las clases Rectangulo y Cuadrado)
+"""
 
-"""
-Programa de prueba para las clases Rectángulo y Cuadrado (Ejercicio 3)
-"""
-# Prueba Rectángulo
+from src.examen03.ejercicio03.src.Cuadrado import Cuadrado
+from src.examen03.ejercicio03.src.Rectangulo import Rectangulo
+
+# Prueba Rectangulo
 rectangulo1 = Rectangulo(10, 5)
 print("Rectángulo 1:\n" + str(rectangulo1))
 try:

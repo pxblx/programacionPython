@@ -1,27 +1,24 @@
 """
 Ejercicio 2 de POO
 """
-from src.practica04.E02.Vehiculo import Vehiculo
-from src.practica04.E02.Bicicleta import Bicicleta
-from src.practica04.E02.Coche import Coche
 
-"""
-Programa de prueba
-"""
+from src.practica04.ejercicio02.Vehiculo import Vehiculo
+from src.practica04.ejercicio02.Bicicleta import Bicicleta
+from src.practica04.ejercicio02.Coche import Coche
+
 bicicleta = Bicicleta(450)
 coche = Coche(138984)
-
 while True:
-    print("VEHÍCULOS\n" +
-        "=========\n" +
-        "1. Anda con la bicicleta\n" +
-        "2. Haz el caballito con la bicicleta\n" +
-        "3. Anda con el coche\n" +
-        "4. Quema rueda con el coche\n" +
-        "5. Ver kilometraje de la bicicleta\n" +
-        "6. Ver kilometraje del coche\n" +
-        "7. Ver kilometraje total\n" +
-        "8. Salir\n")
+    print("VEHÍCULOS\n"
+          "=========\n"
+          "1. Anda con la bicicleta\n"
+          "2. Haz el caballito con la bicicleta\n"
+          "3. Anda con el coche\n"
+          "4. Quema rueda con el coche\n"
+          "5. Ver kilometraje de la bicicleta\n"
+          "6. Ver kilometraje del coche\n"
+          "7. Ver kilometraje total\n"
+          "8. Salir\n")
     opcion = int(input("Elige una opción (1-8): "))
 
     if opcion == 1:
@@ -49,11 +46,12 @@ while True:
         else:
             print("Coche dejando de quemar rueda")
     elif opcion == 5:
-        print("La bicicleta ha recorrido "+str(bicicleta.kilometros_recorridos)+" kilómetros.")
+        print("La bicicleta ha recorrido " + str(bicicleta.kilometros_recorridos) + " kilómetros.")
     elif opcion == 6:
-        print("El coche ha recorrido "+str(coche.kilometros_recorridos)+" kilómetros.")
+        print("El coche ha recorrido " + str(coche.kilometros_recorridos) + " kilómetros.")
     elif opcion == 7:
-        print("El conjunto de "+str(Vehiculo.vehiculos_creados)+" vehículos ha recorrido "+str(Vehiculo.kilometros_totales)+" kilómetros.")
+        print("El conjunto de " + str(Vehiculo.vehiculos_creados) + " vehículos ha recorrido " + str(
+            Vehiculo.kilometros_totales) + " kilómetros.")
     elif opcion == 8:
         print("Saliendo")
         break

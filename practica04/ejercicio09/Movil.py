@@ -1,5 +1,8 @@
-from src.practica04.E08.Terminal import Terminal
+"""
+Ejercicio 9 de POO
+"""
 
+from src.practica04.ejercicio08.Terminal import Terminal
 
 class Movil(Terminal):
     def __init__(self, numero, tarifa):
@@ -10,7 +13,6 @@ class Movil(Terminal):
     def llama(self, terminal, tiempo):
         self.tiempo = self.tiempo + tiempo
         terminal.tiempo = terminal.tiempo + tiempo
-
         if self.__tarifa == "rata":
             self.__gastado = self.__gastado + tiempo * 0.001
         elif self.__tarifa == "mono":

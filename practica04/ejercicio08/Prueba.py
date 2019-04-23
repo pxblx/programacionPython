@@ -1,4 +1,8 @@
-from src.practica04.E08.Terminal import Terminal
+"""
+Ejercicio 8 de POO
+"""
+
+from src.practica04.ejercicio08.Terminal import Terminal
 
 t1 = Terminal("678 11 22 33")
 t2 = Terminal("644 74 44 69")

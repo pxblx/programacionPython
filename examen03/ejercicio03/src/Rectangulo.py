@@ -1,6 +1,7 @@
 """
-Rectángulo (Ejercicio 3)
+Ejercicio 3 (Rectangulo)
 """
+
 class Rectangulo(object):
     def __init__(self, ancho, alto):
         Rectangulo.__comprobar_alto_ancho(ancho)
